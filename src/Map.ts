@@ -147,7 +147,7 @@ class MyMap extends egret.DisplayObjectContainer{
                     playerY = gridY;
                     playerTween.to({x : path[i].x * MyMap.SIZE, y: path[i].y * MyMap.SIZE}, 500, egret.Ease.sineIn).call(function(){   
                 if(Math.abs(player.x - (gridX * MyMap.SIZE)) < 10 && Math.abs(player.y - (gridY * MyMap.SIZE)) < 10){
-                    console.log("到达目的地");
+                    console.log("成功");
                     move = false;
                                 }
                             }); 
@@ -158,7 +158,7 @@ class MyMap extends egret.DisplayObjectContainer{
                     move = false;
                }
                }else{
-                    console.log("无法到达");
+                    console.log("遇见障碍物");
             }
         },this);
     }
