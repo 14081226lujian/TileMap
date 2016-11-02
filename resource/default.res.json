@@ -1,0 +1,70 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,description_json,grass_jpg,card_jpg,tree_jpg,all_jpg,frog_jpg,totem_jpg,egret_icon_png,animotion_json,animotion_png,player_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "grass_jpg",
+			"type": "image",
+			"url": "assets/grass.jpg"
+		},
+		{
+			"name": "card_jpg",
+			"type": "image",
+			"url": "assets/card.jpg"
+		},
+		{
+			"name": "tree_jpg",
+			"type": "image",
+			"url": "assets/tree.jpg"
+		},
+		{
+			"name": "all_jpg",
+			"type": "image",
+			"url": "assets/all.jpg"
+		},
+		{
+			"name": "frog_jpg",
+			"type": "image",
+			"url": "assets/frog.jpg"
+		},
+		{
+			"name": "totem_jpg",
+			"type": "image",
+			"url": "assets/totem.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "animotion_json",
+			"type": "json",
+			"url": "assets/mc/animotion.json"
+		},
+		{
+			"name": "animotion_png",
+			"type": "image",
+			"url": "assets/mc/animotion.png"
+		},
+		{
+			"name": "player_png",
+			"type": "image",
+			"url": "assets/mc/player.png"
+		}
+	]
+}
